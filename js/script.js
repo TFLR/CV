@@ -49,7 +49,3 @@ $(".portfolio").click(function () {
         scrollTop: $("#portfolio").offset().top
     }, 1500);
 });
-
-document.getElementById('about').scrollIntoView();
-document.getElementById('contact').scrollIntoView();
-document.getElementById('portfolio').scrollIntoView();
