@@ -430,15 +430,52 @@ h1 {
 }
 
 /*                         */
-@media (max-width: 740px) and (max-height: 740px) {
-  body {
-    width: 100vh;
-    height: 10vw;
+@media screen and (max-width: 768px) {
+  .panel {
+    width: 500px;
+  }
+  h1 {
+    font-size: 30px;
+    color: #373a36;
+  }
+  .navbar li {
+    margin-right: 30px;
+  }
+  .panel {
+    min-height: 150vh;
+    display: flex;
+    justify-content: space-around;
+  }
+  .abouttext {
+    position: relative;
+    display: inline-block;
+    margin-left: 100px;
+    margin-top: 300px;
+  }
+  .abouttext p {
+    margin-left: 20px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .aboutme {
+    position: absolute;
+    display: inline-block;
+    margin-top: 250px;
+  }
+  .site1 img,
+  .site2 img,
+  .site3 img,
+  .site4 img {
+    display: none;
+  }
+  .site1info {
+    margin-top: 280px;
+  }
+  .site2info {
+    margin-top: 160px;
   }
   .navbar ul li a {
-    font-size: 20px;
-    margin: 10px 5px 5px 5px;
-    border-radius: 5px;
-    align-items: center;
+    text-align: center;
+    margin: 0px;
   }
 }
