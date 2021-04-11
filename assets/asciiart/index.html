@@ -1,0 +1,37 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&display=swap" rel="stylesheet"> 
+    <title>ASCII-ART</title>
+</head>
+
+<body>
+    <hr class="enhaut"/>
+    <h1>ASCII-ART</h1>
+    <form action="/ascii-art" method="POST">
+        <div class="input">
+            <textarea name="input" id="a" rows="1"; placeholder="Write here" wrap="hard"></textarea>
+        </div>
+        <div class="buttons">
+            <select name="banner" id="b">
+                <option value="standard">STANDARD</option>
+                <option value="shadow">SHADOW</option>
+                <option value="thinkertoy">THINKERTOY</option>
+            </select>
+            <button type='submit'>TEST</button>
+            <button name="all" value="all">TEST ALL</button>
+            <input type="button" value="RESET" onClick="location.href=location.href">
+        </form>
+    </div>
+        <div class="output">
+            <pre id="output_text" style="text-align: center;" contenteditable="false">{{.}}</pre>
+    </div>
+    <hr class="enbas"/>
+    <center><p>MALLIPOUDY VENCATVEER</p></center>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+body {
+    background-color: #b3b3b3;
+}
+html { 
+    margin-left: calc(100vw - 100%); 
+  } 
+.output {
+    margin-top: 40px;
+    margin: 30px;
+    overflow-x:auto;
+}
+hr {
+    border: 2px solid black;
+    width:90%;
+}
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+textarea {
+    width: 50%;
+    background-color: #b3b3b3;
+    border: 5px solid black;
+    font-size: 40px;
+    resize: none;
+    outline: none;
+    overflow: hidden;
+}
+.input {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+button, input, select {
+    margin: 30px;
+    background-color: #b3b3b3;
+    border: 5px solid black;
+    width: 165px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+hr.enbas {
+    margin-top:170px;
+}
+P {
+    font-size: 25px;  
+    font-family: 'Josefin Sans', sans-serif;
+}
+pre {
+    animation-duration: 2s;
+    animation-name: up;
+}
+@keyframes up {
+    from {
+      margin: 100%;
+      width: 300%;
+    }
+    to {
+      margin: 0%;
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px){
+.body {
+    display: block;
+}
+h1 {
+    font-size: 40px;
+}
+textarea {
+    width: 80%;
+    font-size: 20px;
+    border: 2px solid black;
+}
+button, input, select {
+    font-size: 10px;
+    margin: 10px;
+    height: 20px;
+    width: auto;
+    border: 2px solid black;
+}
+p{
+    font-size: 15px; 
+}
+hr.enbas {
+    margin-top:100px;
+  }
+}
