@@ -23,7 +23,7 @@ $(window)
   .scroll();
 
 var typed = new Typed(".typed", {
-  strings: ["Developer.", "Designer."],
+  strings: ["Web Designer.", "Full Stack Developer."],
   typeSpeed: 50,
   backSpeed: 50,
   loop: true,
